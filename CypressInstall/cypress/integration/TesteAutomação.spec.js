@@ -22,6 +22,7 @@ describe('Teste: Automação Página Inicial', () => {
         cy.visit('/')
         cy.get('.shop-phone > strong').should('be.exist').and('be.visible').and('have.text', '0123-456-789')
 
+
     })
 
 })

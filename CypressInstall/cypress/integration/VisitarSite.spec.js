@@ -27,4 +27,5 @@ describe('Suite de teste 2: Add cart', () => {
     })
 
     cy.get('.logo').should('be.exist')
+
 })
